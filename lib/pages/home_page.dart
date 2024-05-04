@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:game_store/components/carousel.dart';
 import 'package:game_store/components/appbar/custom_appbar.dart';
 import 'package:game_store/components/categories/categories.dart';
+import 'package:game_store/components/products/product_card.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class HomePage extends StatefulWidget {
@@ -46,6 +47,8 @@ class _HomePageState extends State<HomePage> {
                 Carousel(),
                 const SizedBox(height: 20),
                 Categories(),
+                const SizedBox(height: 20),
+                ProductCard(),
               ],
             ),
           ),
