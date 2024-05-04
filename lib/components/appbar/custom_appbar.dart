@@ -56,7 +56,7 @@ class _CustomAppbarState extends State<CustomAppbar> {
                 fontSize: 28,
               ),
             ),
-            secondChild: CustomTextField(),
+            secondChild: const CustomTextField(),
             crossFadeState: isSearchMode
                 ? CrossFadeState.showSecond
                 : CrossFadeState.showFirst,

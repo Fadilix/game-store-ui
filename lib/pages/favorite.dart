@@ -17,7 +17,7 @@ class Favorite extends StatelessWidget {
             padding: const EdgeInsets.symmetric(horizontal: 15),
             child: Column(
               children: [
-                CustomAppbar(),
+                const CustomAppbar(),
                 const SizedBox(height: 40),
                 Row(
                   children: [
@@ -30,7 +30,7 @@ class Favorite extends StatelessWidget {
                     ),
                   ],
                 ),
-                Categories(),
+                const Categories(),
                 const SizedBox(height: 20),
                 SizedBox(
                   height: MediaQuery.of(context).size.height + 50,

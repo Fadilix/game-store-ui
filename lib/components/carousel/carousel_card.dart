@@ -13,7 +13,7 @@ class CarouselCard extends StatefulWidget {
 class _CarouselCardState extends State<CarouselCard> {
   void show() {
     void showSnackBar(BuildContext context) {
-      final snackBar = SnackBar(
+      const snackBar = SnackBar(
         content: Text("Not available for the moment"),
         duration: Duration(seconds: 1),
       );

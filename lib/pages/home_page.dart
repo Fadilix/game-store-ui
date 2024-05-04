@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:game_store/components/carousel/carousel.dart';
 import 'package:game_store/components/appbar/custom_appbar.dart';
 import 'package:game_store/components/categories/categories.dart';
@@ -46,14 +45,14 @@ class _HomePageState extends State<HomePage> {
                   ],
                 ),
                 const SizedBox(height: 20),
-                Carousel(),
+                const Carousel(),
                 const SizedBox(height: 20),
-                Categories(),
+                const Categories(),
                 const SizedBox(height: 20),
 
                 // Products
                 // Let's try something !
-                SizedBox(height: 400, child: const ProductGrid()),
+                const SizedBox(height: 400, child: ProductGrid()),
                 const SizedBox(height: 15),
               ],
             ),

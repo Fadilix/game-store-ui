@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:google_fonts/google_fonts.dart';
 
+// ignore: must_be_immutable
 class ProductCard extends StatefulWidget {
   bool isFavorite = false;
   final String img;
@@ -82,7 +82,7 @@ class ProductCardState extends State<ProductCard> {
                     borderRadius: BorderRadius.circular(8),
                     border: Border.all(color: Colors.grey.shade400),
                   ),
-                  child: Icon(Icons.arrow_right_rounded),
+                  child: const Icon(Icons.arrow_right_rounded),
                 ),
               ],
             ),

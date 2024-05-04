@@ -18,7 +18,7 @@ class MenuRow extends StatefulWidget {
 class _MenuRowState extends State<MenuRow> {
   void showSnackbar() {
     void show(BuildContext context) {
-      final snackBar = SnackBar(
+      const snackBar = SnackBar(
         content: Text("Not available for the moment"),
       );
       ScaffoldMessenger.of(context).showSnackBar(snackBar);
@@ -32,19 +32,20 @@ class _MenuRowState extends State<MenuRow> {
     return GestureDetector(
       onTap: showSnackbar,
       child: Container(
-          padding: const EdgeInsets.symmetric(vertical: 20),
-          child: Row(
-            children: [
-              Icon(widget.icon, size: 30),
-              const SizedBox(width: 20),
-              Text(
-                widget.text,
-                style: GoogleFonts.poppins(
-                  fontSize: 17,
-                ),
+        padding: const EdgeInsets.symmetric(vertical: 20),
+        child: Row(
+          children: [
+            Icon(widget.icon, size: 30),
+            const SizedBox(width: 20),
+            Text(
+              widget.text,
+              style: GoogleFonts.poppins(
+                fontSize: 17,
               ),
-            ],
-          )),
+            ),
+          ],
+        ),
+      ),
     );
   }
 }
