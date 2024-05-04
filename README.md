@@ -7,3 +7,6 @@ GameZone is a modern and user-friendly game store application designed and devel
 
 ## Screenshots
 <img src="https://github.com/Fadilix/game-store-ui/assets/121851593/3279d10b-6be6-4f38-8b9a-cd28c214e0f6" width="300"/>
+<img src="https://github.com/Fadilix/game-store-ui/assets/121851593/85e2c85a-d7c6-4694-a53f-13a659ea9f32" width="300"/>
+<img src="https://github.com/Fadilix/game-store-ui/assets/121851593/ecb1e05c-a3e5-444a-b7bf-eccf9471d1d0" width="300"/>
+<img src="https://github.com/Fadilix/game-store-ui/assets/121851593/474de1d2-c468-4db3-aadf-f73b5698f317" width="300"/>
