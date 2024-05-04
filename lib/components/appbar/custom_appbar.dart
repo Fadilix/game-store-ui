@@ -14,14 +14,14 @@ class _CustomAppbarState extends State<CustomAppbar> {
 
   void showSnackBar(BuildContext context) {
     final snackBar = SnackBar(
-      content: Text("Can't access cart for the moment!"),
+      content: const Text("Can't access cart for the moment!"),
       action: SnackBarAction(
         label: "OK",
         onPressed: () {
           // print("Undo clicked!");
         },
       ),
-      duration: Duration(seconds: 2),
+      duration: const Duration(seconds: 2),
     );
 
     ScaffoldMessenger.of(context).showSnackBar(snackBar);
@@ -64,7 +64,7 @@ class _CustomAppbarState extends State<CustomAppbar> {
           Row(
             children: [
               IconButton(
-                icon: Icon(
+                icon: const Icon(
                   Icons.search,
                   size: 35,
                 ),
@@ -72,7 +72,7 @@ class _CustomAppbarState extends State<CustomAppbar> {
               ),
               const SizedBox(width: 5),
               IconButton(
-                icon: Icon(
+                icon: const Icon(
                   Icons.shopping_bag,
                   size: 35,
                 ),

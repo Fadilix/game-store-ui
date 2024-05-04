@@ -1,8 +1,7 @@
-import 'dart:math';
-
 import 'package:flutter/material.dart';
 import 'package:game_store/components/products/product_card.dart';
 import 'package:game_store/data/data.dart';
+import 'package:game_store/functions/functions.dart';
 
 class ProductGrid extends StatefulWidget {
   final int? limit;
@@ -14,10 +13,6 @@ class ProductGrid extends StatefulWidget {
 
 class _ProductGridState extends State<ProductGrid> {
   final ScrollController _scrollController = ScrollController();
-  generateRandomPrice() {
-    int price = Random().nextInt(700) + 20;
-    return price.toDouble();
-  }
 
   @override
   Widget build(BuildContext context) {

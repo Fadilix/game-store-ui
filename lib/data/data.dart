@@ -1,5 +1,5 @@
 String f = "assets/"; // f for folder
-String avatarSrc = "${f}avatar.wepb";
+String avatarSrc = "${f}toji.jpg";
 List<Map> data = [
   {
     "name": "AC Valhalla",
@@ -63,11 +63,11 @@ List<Map> data = [
     "src": "${f}pulse_headset_ps5.png",
     "favorite": false,
   },
-  {
-    "name": "Sony Headphone",
-    "src": "${f}sony_headphone.png",
-    "favorite": false
-  },
+  // {
+  //   "name": "Sony Headphone",
+  //   "src": "${f}sony_headphone.png",
+  //   "favorite": false
+  // },
   {
     "name": "Spider-Man 2",
     "src": "${f}spider_man_2.png",

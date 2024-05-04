@@ -33,7 +33,7 @@ class Favorite extends StatelessWidget {
                 Categories(),
                 const SizedBox(height: 20),
                 SizedBox(
-                  height: MediaQuery.of(context).size.height + 200,
+                  height: MediaQuery.of(context).size.height + 50,
                   width: MediaQuery.of(context).size.width,
                   child: const ProductGrid(limit: 5),
                 ),

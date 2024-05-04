@@ -45,7 +45,7 @@ class _MyAppState extends State<MyApp> {
           BottomNavigationBarItem(
             icon: Icon(Icons.home_outlined),
             activeIcon: Icon(Icons.home),
-            backgroundColor: Colors.purple,
+            backgroundColor: Colors.amber,
             label: "Home",
           ),
           BottomNavigationBarItem(
@@ -55,9 +55,15 @@ class _MyAppState extends State<MyApp> {
             activeIcon: Icon(Icons.favorite),
           ),
           BottomNavigationBarItem(
+            icon: Icon(Icons.fireplace_outlined),
+            backgroundColor: Colors.redAccent,
+            label: "Hot Deals",
+            activeIcon: Icon(Icons.fireplace_rounded),
+          ),
+          BottomNavigationBarItem(
             icon: Icon(Icons.person_outline),
             activeIcon: Icon(Icons.person),
-            backgroundColor: Colors.teal,
+            backgroundColor: Colors.blueGrey,
             label: "Profile",
           ),
         ],

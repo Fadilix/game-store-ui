@@ -46,7 +46,7 @@ class ProductCardState extends State<ProductCard> {
             ],
           ),
           Image.asset(widget.img, width: 100),
-          Spacer(),
+          const Spacer(),
           Padding(
             padding: const EdgeInsets.only(left: 15),
             child: Row(
