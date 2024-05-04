@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:game_store/components/appbar_textfield.dart';
+import 'package:game_store/components/appbar/appbar_textfield.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class CustomAppbar extends StatefulWidget {

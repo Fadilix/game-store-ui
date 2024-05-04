@@ -12,7 +12,7 @@ List<Map> data = [
     "favorite": false
   },
   {"name": "PS Vita 2", "src": "${f}ps_vita_2.png", "favorite": false},
-  {"name": "PS4 Controller", "src": "${f}ps_controller.png", "favorite": false},
+  {"name": "PS4 Controller", "src": "${f}ps4_controller.png", "favorite": false},
   {"name": "PS4 Slim Pro", "src": "${f}ps_slim_pro.png", "favorite": false},
   {
     "name": "PS5 Charging Station",

@@ -22,9 +22,9 @@ class _CarouselState extends State<Carousel> {
         children: [
           CarouselCard(src: data[4]["src"], color: Colors.amber),
           const SizedBox(width: 10),
-          CarouselCard(src: data[3]["src"], color: Colors.amber),
+          CarouselCard(src: data[5]["src"], color: Colors.blue),
           const SizedBox(width: 10),
-          CarouselCard(src: data[2]["src"], color: Colors.amber),
+          CarouselCard(src: data[7]["src"], color: Colors.red.shade300),
           const SizedBox(width: 10),
         ],
       ),

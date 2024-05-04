@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:game_store/components/carousel.dart';
-import 'package:game_store/components/custom_appbar.dart';
+import 'package:game_store/components/appbar/custom_appbar.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class HomePage extends StatefulWidget {
