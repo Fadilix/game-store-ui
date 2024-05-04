@@ -10,3 +10,12 @@ GameZone is a modern and user-friendly game store application designed and devel
 <img src="https://github.com/Fadilix/game-store-ui/assets/121851593/85e2c85a-d7c6-4694-a53f-13a659ea9f32" width="300"/>
 <img src="https://github.com/Fadilix/game-store-ui/assets/121851593/ecb1e05c-a3e5-444a-b7bf-eccf9471d1d0" width="300"/>
 <img src="https://github.com/Fadilix/game-store-ui/assets/121851593/474de1d2-c468-4db3-aadf-f73b5698f317" width="300"/>
+
+## Get Started
+Add this project to your local machine
+
+```bash
+git clone https://github.com/Fadilix/game-store-ui.git
+cd game-store-ui
+flutter run
+```
