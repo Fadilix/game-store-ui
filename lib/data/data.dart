@@ -37,26 +37,30 @@ List<Map> data = [
     "src": "${f}ps4_controller.png",
     "favorite": false
   },
-  {"name": "PS4 Slim Pro", "src": "${f}ps_slim_pro.png", "favorite": false},
+  {"name": "PS4 Slim Pro", "src": "${f}ps4_slim_pro.png", "favorite": false},
   {
     "name": "PS5 Charging Station",
-    "src": "${f}ps_charging_station.png",
+    "src": "${f}ps5_charging_station.png",
     "favorite": false
   },
   {
     "name": "PS5 Controller",
-    "src": "${f}ps_controller.png",
+    "src": "${f}ps5_controller.png",
     "favorite": false,
   },
   {
     "name": "PS5 Digital Edition",
-    "src": "${f}ps_digital_edition.png",
+    "src": "${f}ps5_digital_edition.png",
     "favorite": false
   },
-  {"name": "PS5 Remote", "src": "${f}ps_remote.webp", "favorite": false},
+  // {
+  //   "name": "PS5 Remote",
+  //   "src": "${f}ps_remote.webp",
+  //   "favorite": false,
+  // },
   {
     "name": "Pulse Headset",
-    "src": "${f}pulse_headset.png",
+    "src": "${f}pulse_headset_ps5.png",
     "favorite": false,
   },
   {

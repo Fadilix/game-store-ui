@@ -1,8 +1,10 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:game_store/components/carousel.dart';
+import 'package:flutter/widgets.dart';
+import 'package:game_store/components/carousel/carousel.dart';
 import 'package:game_store/components/appbar/custom_appbar.dart';
 import 'package:game_store/components/categories/categories.dart';
-import 'package:game_store/components/products/product_card.dart';
+import 'package:game_store/components/products/products_list_grid.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class HomePage extends StatefulWidget {
@@ -48,7 +50,11 @@ class _HomePageState extends State<HomePage> {
                 const SizedBox(height: 20),
                 Categories(),
                 const SizedBox(height: 20),
-                ProductCard(),
+
+                // Products
+                // Let's try something !
+                SizedBox(height: 400, child: const ProductGrid()),
+                const SizedBox(height: 15),
               ],
             ),
           ),

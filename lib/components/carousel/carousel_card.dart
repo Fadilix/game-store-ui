@@ -47,7 +47,7 @@ class _CarouselCardState extends State<CarouselCard> {
                   ),
                 ),
                 Text(
-                  "On gaming accessories",
+                  "For the holydays!",
                   style: GoogleFonts.poppins(
                     fontSize: 12,
                   ),

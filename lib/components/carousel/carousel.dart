@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:game_store/components/carousel_card.dart';
+import 'package:game_store/components/carousel/carousel_card.dart';
 import 'package:game_store/data/data.dart';
 
 class Carousel extends StatefulWidget {
