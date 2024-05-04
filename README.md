@@ -17,5 +17,6 @@ Add this project to your local machine
 ```bash
 git clone https://github.com/Fadilix/game-store-ui.git
 cd game-store-ui
+flutter pub get
 flutter run
 ```
