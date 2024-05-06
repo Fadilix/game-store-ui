@@ -14,7 +14,6 @@ class CatElem extends StatefulWidget {
 
   @override
   State<CatElem> createState() => _CatElemState();
-  
 }
 
 class _CatElemState extends State<CatElem> {
