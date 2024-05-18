@@ -43,6 +43,7 @@ class ProductCardState extends State<ProductCard> {
                     ? const Icon(Icons.favorite, color: Colors.red)
                     : const Icon(Icons.favorite_border),
               ),
+              
             ],
           ),
           Image.asset(widget.img, width: 100),
