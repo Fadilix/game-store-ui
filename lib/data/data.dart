@@ -1,6 +1,6 @@
 String f = "assets/"; // f for folder
 String avatarSrc = "${f}toji.jpg";
-List<Map> data = [
+List<Map<String, dynamic>> data = [
   {
     "name": "AC Valhalla",
     "src": "${f}ac_valhalla.png",
